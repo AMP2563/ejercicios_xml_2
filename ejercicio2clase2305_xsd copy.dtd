@@ -1,0 +1,7 @@
+<!ELEMENT reserva (cliente,fechaEntrada,fechaSalida,habitacion)>
+<!ELEMENT cliente (#PCDATA)>
+<!ELEMENT fechaEntrada (#PCDATA)>
+<!ELEMENT fechaSalida (#PCDATA)>
+<!ELEMENT habitacion EMPTY>
+<!ATTLIST habitacion tipo (individual | doble | sencialla) #REQUIRED>
+    

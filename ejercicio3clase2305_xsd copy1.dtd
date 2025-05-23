@@ -1,0 +1,5 @@
+<!ELEMENT encuesta (nombre,satisfaccion,comentarios)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT satisfaccion EMPTY>
+<!ATTLIST satisfaccion valor (alta | media | baja) #REQUIRED>
+<!ELEMENT comentarios (#PCDATA)>

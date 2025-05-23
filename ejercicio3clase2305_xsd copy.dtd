@@ -1,0 +1,4 @@
+<!ELEMENT encuesta (nombre,satisfaccion,comentarios)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT satisfaccion (#PCDATA)>
+<!ELEMENT comentarios (#PCDATA)>
