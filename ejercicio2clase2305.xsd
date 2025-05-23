@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+  <xs:element name="reserva"> 
+    <xs:complexType> 
+      <xs:sequence> 
+        <xs:element name="cliente" type="xs:string"/> 
+        <xs:element name="fechaEntrada" type="xs:date"/> 
+        <xs:element name="fechaSalida" type="xs:date"/> 
+        <xs:element name="habitacion"> 
+          <xs:simpleType> 
+            <xs:restriction base="xs:string"> 
+              <xs:enumeration value="individual"/> 
+                          <xs:enumeration value="doble"/> 
+                          <xs:enumeration value="suite"/> 
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura numero="F00123" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ejercicio1clase2305xsd.xsd">
+  <cliente>Juan Pérez</cliente>
+  <fecha>2025-05-23</fecha>
+  <total>1299.99</total>
+</factura>

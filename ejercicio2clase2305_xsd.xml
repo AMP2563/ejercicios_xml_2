@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reserva xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ejercicio2clase2305.xsd">
+  <cliente>Ana Martínez</cliente>
+  <fechaEntrada>2025-07-10</fechaEntrada>
+  <fechaSalida>2025-07-15</fechaSalida>
+  <habitacion>suite</habitacion>
+</reserva>
